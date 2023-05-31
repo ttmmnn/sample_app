@@ -4,5 +4,5 @@ class List < ApplicationRecord
   validates :title, presence: true
   validates :body, presence: true
   # rails cを試すために、以下をコメントアウト(試さないときはコメントアウトを外す)
-  validates :image, presence: true
+  # validates :image, presence: true
 end
